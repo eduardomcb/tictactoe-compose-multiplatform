@@ -60,6 +60,12 @@ Execute o aplicativo no navegador: `./gradlew :composeApp:jsBrowserDevelopmentRu
 - Opção para mudar o tema do aplicativo.
 - Opção para resetar o jogo.
 
+## Capturas de tela
+<div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="../screenshots/demo_web_and_desktopApp.png" alt="Image 1" width="100%"/>
+    <img src="../screenshots/demo_android.png" alt="Image 2" width="300"/>
+</div>
+
 ## Contribuição
 
 Contribuições são bem-vindas! Se você encontrar problemas ou quiser adicionar novos recursos, fique à vontade para criar

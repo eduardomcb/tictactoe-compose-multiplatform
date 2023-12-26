@@ -59,6 +59,12 @@ Run the application in the browser: `./gradlew :composeApp:jsBrowserDevelopmentR
 - Option to change the app theme.
 - Option to reset the game.
 
+## Screenshots
+<div style="display: flex; flex-direction: column; align-items: center;">
+    <img src="screenshots/demo_web_and_desktopApp.png" alt="Image 1" width="100%"/>
+    <img src="screenshots/demo_android.png" alt="Image 2" width="300"/>
+</div>
+
 ## Contribution
 
 Contributions are welcome! If you encounter issues or want to add new features, feel free to create issues and pull requests.
