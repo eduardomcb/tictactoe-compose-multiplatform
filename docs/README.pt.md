@@ -1,4 +1,4 @@
-For English documentation, please see the [English README](README.md).
+For English documentation, please see the [English README](../README.md).
 
 # Tic Tac Toe in Compose Multiplatform
 
@@ -67,4 +67,4 @@ issues e pull requests.
 
 ## Licença
 
-Este projeto é licenciado sob a [MIT License](LICENSE).
+Este projeto é licenciado sob a [MIT License](../LICENSE).
