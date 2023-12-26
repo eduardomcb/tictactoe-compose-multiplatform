@@ -1,0 +1,32 @@
+[versions]
+
+kotlin = "1.9.21"
+agp = "8.1.4"
+compose = "1.5.11"
+androidx-appcompat = "1.6.1"
+androidx-activityCompose = "1.8.1"
+compose-uitooling = "1.5.4"
+libres = "1.2.2"
+napier = "2.6.1"
+buildConfig = "4.1.1"
+precompose-viewmodel = "1.5.10"
+image-loader = "1.7.1"
+
+[libraries]
+
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
+androidx-activityCompose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
+compose-uitooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose-uitooling" }
+libres = { module = "io.github.skeptick.libres:libres-compose", version.ref = "libres" }
+napier = { module = "io.github.aakira:napier", version.ref = "napier" }
+precompose-viewmodel = { module = "moe.tlaster:precompose-viewmodel", version.ref = "precompose-viewmodel"}
+image-loader = { module = "io.github.qdsfdhvh:image-loader", version.ref = "image-loader"}
+androidx-annotation-jvm = { group = "androidx.annotation", name = "annotation-jvm", version = "1.7.1" }
+
+[plugins]
+
+multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+compose = { id = "org.jetbrains.compose", version.ref = "compose" }
+android-application = { id = "com.android.application", version.ref = "agp" }
+libres = { id = "io.github.skeptick.libres", version.ref = "libres" }
+buildConfig = { id = "com.github.gmazzo.buildconfig", version.ref = "buildConfig" }
